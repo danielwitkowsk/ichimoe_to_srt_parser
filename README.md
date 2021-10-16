@@ -2,8 +2,11 @@
 
 Basic python webscraper that takes as an input .srt file and outputs .srt file with it's original content in the first line, traditional hepburn in the second, and english translation of seperate parts of the sentence in the third. For every caption a request is send to ichi.moe . 
 Example caption input:
+
 ![image](https://user-images.githubusercontent.com/79915906/137600457-3c972811-cbad-41fc-9610-11b5422987e2.png)
+
 Example output for this caption:
+
 ![image](https://user-images.githubusercontent.com/79915906/137600485-98c08b87-2df6-46e3-bf68-4881196bad46.png)
 
 TODO:
