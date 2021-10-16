@@ -25,7 +25,14 @@ Example output for this caption:
 
 `python script.py input_filename.srt output_filename.srt` 
 
+# Subtitles aren't alligned vertically in your media player?
+That's because kanji,kana symbols and normal characters have diffrent width sizes, and are fully dependent on the type of font you're using. Monospaced fonts seem to be the solution, and the only one that I found warking was "unifont_jp-14.0.01.ttf" from [here](http://unifoundry.com/unifont/index.html).
+
+And [here](https://www.youtube.com/watch?v=c7eovFM-Bos) is how you can install font in VLC.
+
+Unfortunately .srt is too basic of a file format to use custom font (in many cases).
+
 # TODO:
 - option to choose particular translation from many (now it takes the first one available)
 - option to exclude translation and romanization of choosen kana (or kanji, if needed)
-- figure out how to create output that, after being used in video player, will be alligned vertically (as seen in terminal, second picture)
+
